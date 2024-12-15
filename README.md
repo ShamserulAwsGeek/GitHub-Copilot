@@ -67,14 +67,18 @@ Now lets see how you can leverage comments to generate Copilot suggestions!
    ```
    git add comments.js
    ```
+   we can add below command to add any number of files into staging stage
+   ---------
+   git add .
+   ---------
 
-2. Next from the VS Code terminal stage and commit the changes to the repository:
+3. Next from the VS Code terminal stage and commit the changes to the repository:
 
    ```
    git commit -m "Copilot third commit"
    ```
 
-3. Finally from the VS Code terminal push to code to the repository:
+4. Finally from the VS Code terminal push to code to the repository:
 
    ```
    git push
