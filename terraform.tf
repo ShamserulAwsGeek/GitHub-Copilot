@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_fsx_ontap_file_system" "example" {
     storage_capacity = 2048
     subnet_ids       = ["subnet-12345678"]
-    throughput_capacity = 128
+    throughput_capacity = 256
     deployment_type = "MULTI_AZ_1"
     preferred_subnet_id = "subnet-12345678"
     route_table_ids = ["rtb-12345678"]
