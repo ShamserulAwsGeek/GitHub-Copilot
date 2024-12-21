@@ -15,3 +15,22 @@ function SkillsMember(name, skills) {
 const member = new SkillsMember('John Doe', ['JavaScript', 'HTML']);
 member.addSkill('CSS');
 console.log(member.getSkills()); // Output: ['JavaScript', 'HTML', 'CSS']
+class SkillsMember {
+    constructor(name, skills) {
+        this.name = name;
+        this.skills = skills;
+    }
+
+    addSkill(skill) {
+        this.skills.push(skill);
+    }
+
+    getSkills() {
+        return this.skills;
+    }
+}
+
+// Example usage:
+const member = new SkillsMember('John Doe', ['JavaScript', 'HTML']);
+member.addSkill('CSS');
+console.log(member.getSkills()); // Output: ['JavaScript', 'HTML', 'CSS']
