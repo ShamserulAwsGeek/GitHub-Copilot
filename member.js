@@ -34,3 +34,4 @@ class SkillsMember {
 const member = new SkillsMember('John Doe', ['JavaScript', 'HTML']);
 member.addSkill('CSS');
 console.log(member.getSkills()); // Output: ['JavaScript', 'HTML', 'CSS']
+
