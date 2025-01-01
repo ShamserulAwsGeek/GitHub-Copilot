@@ -124,7 +124,7 @@ jobs:
 
       - name: Notify on error
         if: failure()
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const context = github.context;
